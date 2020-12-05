@@ -1,6 +1,6 @@
 ---
 layout: default
-title: just-the-docs
+title: Just The Docs テーマ
 nav_order: 1
 ---
 
@@ -21,19 +21,24 @@ ___
 `_config.yml` は次の情報を入れます。
 
 ```
-theme: jekyll-theme-leap-day
+remote_theme: pmarsceill/just-the-docs
 lang: ja
-title: Leap Day テーマ
-description: GitHub Pages Leap Day テーマ.
-show_downloads: false
-google_analytics: UA-OOOOOOOO-O
+title: Just The Docs
+description: GitHub Pages Just The Docs テーマ
+logo: "/assets/images/just-the-docs.png"
+search_enabled: true
+aux_links:
+  "GitHub ソース":
+    - "https://github.com/remotetheme/just-the-docs"
+footer_content: 
+ga_tracking: UA-OOOOOOOO-O
 ```
 
 ```
-theme: jekyll-theme-leap-day
+remote_theme: pmarsceill/just-the-docs
 ```
 
-このテーナ **Leap Day** を使用する場合に指定します。
+このテーマ **Just The Docs** を使用する場合に指定します。
 
 ```
 lang: ja
@@ -42,37 +47,69 @@ lang: ja
 **日本語** の場合はこれを含めて下さい。 `<html lang="ja">` へ変換されます。
 
 ```
-title: Leap Day テーマ
-description: GitHub Pages Leap Day テーマ.
+title: Just The Docs
 ```
 
-ヘッダに表示されます。省略した場合はリポジトリ名・タグが反映されます。
+左上に表示されます。
 
 ```
-show_downloads: false
+description: GitHub Pages Just The Docs テーマ
 ```
 
-ダウンロードを使用しない場合は **false** にします。\
-**true** の場合はリポジトリの **Releases** で公開している最新版の\
-`.zip` および `.tar.gz` ファイルがダウンロード表示になります。
+Just The Docs では表示されませんが、meta タグに含まれます。
 
 ```
-google_analytics: UA-OOOOOOOO-O
+logo: "/assets/images/just-the-docs.png"
+```
 
+画像表示になります。
+
+```
+search_enabled: true
+```
+
+本文上に検索バーを表示します。
+
+```
+aux_links:
+  "GitHub ソース":
+    - "https://github.com/remotetheme/just-the-docs"
+```
+
+右上のリンクを設定します。
+
+```
+footer_content: 
+```
+
+左下に表示します。
+
+```
+ga_tracking: UA-OOOOOOOO-O
+```
 
 Google アナリティクス の トラッキング ID を入れると、\
 ソースにトラッキングコードが付与されます。\
 Google アナリティクス 4 のコードは非対応です。
 
+他にも設定があります。
+
+<https://pmarsceill.github.io/just-the-docs/docs/configuration/>
+
 ___
 
 ## サイドバー
 
-見出し h1～h3 の一覧を自動生成します。
+左サイドバーにはページの一覧を表示します。\
+表示順は `nav_order` で設定できます。
 
-実際のテーマではスクロールしても固定表示になっていますが、\
-[markdown](markdown) ページの見出し項目が多く、固定表示では問題があるため、\
-ここではスクロールするようにカスタム CSS を適用しています。
+```
+---
+layout: default
+title: just-the-docs
+nav_order: 1
+---
+```
 
 ___
 

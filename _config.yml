@@ -1,8 +1,11 @@
-lang: ja
-title: test.pages.net.eu.org
 remote_theme: pmarsceill/just-the-docs
+lang: ja
+title: Just The Docs
+description: GitHub Pages Just The Docs テーマ
+#logo: "/assets/images/just-the-docs.png"
 search_enabled: true
 aux_links:
   "GitHub ソース":
     - "https://github.com/remotetheme/just-the-docs"
 footer_content: 
+ga_tracking: 
