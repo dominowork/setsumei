@@ -113,5 +113,13 @@ nav_order: 1
 
 ___
 
+## テーマのプロジェクト・ソース
+
+より詳細な設定などはこちらを参照して下さい。
+
+<https://github.com/pmarsceill/just-the-docs>
+
+___
+
 [remotetheme.github.io](https://remotetheme.github.io/)
 
