@@ -5,7 +5,7 @@ nav_order: 2
 ---
 
 [remotetheme.github.io](https://remotetheme.github.io/) / 
-[just-the-docs](/)
+[just-the-docs](./)
 
 ___
 
@@ -704,6 +704,6 @@ HTML の中で ***Markdown*** も使えます。
 ___
 
 [remotetheme.github.io](https://remotetheme.github.io/) / 
-[just-the-docs](/)
+[just-the-docs](./)
 
 ___
