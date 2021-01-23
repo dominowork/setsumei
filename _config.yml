@@ -9,3 +9,6 @@ aux_links:
     - "https://github.com/remotetheme/just-the-docs"
 footer_content: 
 ga_tracking: 
+
+plugins:
+  - jekyll-sitemap
