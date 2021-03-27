@@ -10,12 +10,6 @@ nav_order: 1
 
 ___
 
-## Markdown の表示
-
-[Markdown](markdown)
-
-___
-
 ## _config.yml
 
 `_config.yml` は次の情報を入れます。
