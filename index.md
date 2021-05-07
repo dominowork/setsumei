@@ -9,6 +9,7 @@ nav_order: 1
 
 [remotetheme.github.io](https://remotetheme.github.io/)
 
+# Just The Docs テーマ
 ___
 
 ## _config.yml
