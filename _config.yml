@@ -6,7 +6,7 @@ description: GitHub Pages Just The Docs テーマ
 search_enabled: true
 aux_links:
   "GitHub ソース":
-    - "https://github.com/remotetheme/just-the-docs"
+    - "https://github.com/dominowork/just-the-docs"
 footer_content: 
 ga_tracking: 
 
