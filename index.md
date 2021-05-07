@@ -3,6 +3,11 @@ layout: default
 title: Just The Docs テーマ
 nav_order: 1
 ---
+---
+layout: default
+title: Just The Docs テーマ
+nav_order: 1
+---
 
 # Just The Docs テーマ
 
