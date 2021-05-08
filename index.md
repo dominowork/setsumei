@@ -7,7 +7,7 @@ nav_order: 1
 
 # Just The Docs テーマ
 
-[remotetheme.github.io](https://remotetheme.github.io/)
+[dominowork.github.io](https://dominowork.github.io/)
 
 ___
 
